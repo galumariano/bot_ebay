@@ -3,9 +3,9 @@ name: Cazador de ofertas eBay
 on:
   schedule:
     # Cada hora, en el minuto 0. Los horarios son UTC.
-    - cron: '0 * * * *'
+    - cron: '7,37 * * * *'
     # Latido diario: 12:00 UTC = 9:00 de la manana en Argentina
-    - cron: '0 12 * * *'
+    - cron: '12 12 * * *'
   # Boton para correrlo a mano desde la pestana Actions
   workflow_dispatch:
 
