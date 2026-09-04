@@ -60,19 +60,7 @@ BUSQUEDAS = [
         "pulgadas": [14],
         "exigir_pulgadas": False,
     },
-    {
-        "nombre": "MacBook Pro 14 M1 Max",
-        "query": "MacBook Pro 14 M1 Max",
-        "categoria": CAT_LAPTOPS_APPLE,
-        "precio_min": 600,
-        "precio_max": 1150,
-        "obligatorias": [["macbook"], ["m1"], ["max"]],
-        "prohibidas": ["air", "m2", "m3", "m4", "m5"],
-        "ram_minima": 18,
-        "exigir_ram": True,
-        "pulgadas": [14],
-        "exigir_pulgadas": False,
-    },
+  
     {
         "nombre": "MacBook Pro 14 M4 Pro",
         "query": "MacBook Pro 14 M4 Pro",
@@ -117,36 +105,27 @@ BUSQUEDAS = [
         "obligatorias": [["iphone"], ["17"], ["pro"], ["max"], ["256gb", "256"]],
         "prohibidas": ["charger", "otterbox", "16", "15", "18"],
     },
-    {
-        "nombre": "Latias ex 239/191 JAP",
-        "query": "Latias ex 239 japanese",
-        "categoria": CAT_CARTAS,
-        "precio_min": 20,
-        "precio_max": 150,
-        "obligatorias": [["latias"], ["239"], ["japanese", "japan", "jpn", "jp"]],
-        "prohibidas": ["chinese", "korean", "korea", "china", "simplified",
-                       "traditional", "thai", "indonesian", "english"],
+
+     {
+        "nombre": "iPhone 17 Pro Max 512GB",
+        "query": "iPhone 17 Pro Max 512GB unlocked",
+        "categoria": CAT_CELULARES,
+        "precio_min": 550,
+        "precio_max": 950,
+        "obligatorias": [["iphone"], ["17"], ["pro"], ["max"], ["512gb", "512"]],
+        "prohibidas": ["charger", "otterbox", "16", "15", "18"],
     },
-    {
-        "nombre": "Blastoise ex SAR 202/165 JAP",
-        "query": "Blastoise ex SAR 202 japanese",
-        "categoria": CAT_CARTAS,
-        "precio_min": 20,
-        "precio_max": 130,
-        "obligatorias": [["blastoise"], ["202"], ["japanese", "japan", "jpn", "jp"]],
-        "prohibidas": ["chinese", "korean", "korea", "china", "simplified",
-                       "traditional", "thai", "indonesian", "english"],
+
+  {
+        "nombre": "iPhone 17 Pro 512GB",
+        "query": "iPhone 17 Pro 512GB unlocked",
+        "categoria": CAT_CELULARES,
+        "precio_min": 500,
+        "precio_max": 850,
+        "obligatorias": [["iphone"], ["17"], ["pro"], ["512gb", "512"]],
+        "prohibidas": ["max", "plus", "charger", "otterbox", "16", "15", "18"],
     },
-    {
-        "nombre": "Greninja 090/066 JAP",
-        "query": "Greninja 090 066 japanese",
-        "categoria": CAT_CARTAS,
-        "precio_min": 30,
-        "precio_max": 230,
-        "obligatorias": [["greninja"], ["090"], ["japanese", "japan", "jpn", "jp"]],
-        "prohibidas": ["chinese", "korean", "korea", "china", "simplified",
-                       "traditional", "thai", "indonesian", "english"],
-    },
+   
 ]
 
 # ===================================================================
