@@ -87,44 +87,6 @@ BUSQUEDAS = [
         "pulgadas": [14],
         "exigir_pulgadas": False,
     },
-    {
-        "nombre": "iPhone 17 Pro 256GB",
-        "query": "iPhone 17 Pro 256GB unlocked",
-        "categoria": CAT_CELULARES,
-        "precio_min": 500,
-        "precio_max": 850,
-        "obligatorias": [["iphone"], ["17"], ["pro"], ["256gb", "256"]],
-        "prohibidas": ["max", "plus", "charger", "otterbox", "16", "15", "18"],
-    },
-    {
-        "nombre": "iPhone 17 Pro Max 256GB",
-        "query": "iPhone 17 Pro Max 256GB unlocked",
-        "categoria": CAT_CELULARES,
-        "precio_min": 550,
-        "precio_max": 950,
-        "obligatorias": [["iphone"], ["17"], ["pro"], ["max"], ["256gb", "256"]],
-        "prohibidas": ["charger", "otterbox", "16", "15", "18"],
-    },
-
-     {
-        "nombre": "iPhone 17 Pro Max 512GB",
-        "query": "iPhone 17 Pro Max 512GB unlocked",
-        "categoria": CAT_CELULARES,
-        "precio_min": 550,
-        "precio_max": 950,
-        "obligatorias": [["iphone"], ["17"], ["pro"], ["max"], ["512gb", "512"]],
-        "prohibidas": ["charger", "otterbox", "16", "15", "18"],
-    },
-
-  {
-        "nombre": "iPhone 17 Pro 512GB",
-        "query": "iPhone 17 Pro 512GB unlocked",
-        "categoria": CAT_CELULARES,
-        "precio_min": 500,
-        "precio_max": 850,
-        "obligatorias": [["iphone"], ["17"], ["pro"], ["512gb", "512"]],
-        "prohibidas": ["max", "plus", "charger", "otterbox", "16", "15", "18"],
-    },
    
 ]
 
